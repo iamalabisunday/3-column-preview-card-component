@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border-column-preview-card-component {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.three-column-preview-card-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; 
+    overflow: hidden;
+}
+
+/* 1-column-preview-card-component */
+
+.sedans-card-component {
+    width: 250px;
+    height: 400px;
+    background-color: #E28525;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* All autolayer is in fit-conatent */
+.autolayer-container {
+    width: fit-content;
+    height: auto;
+}
+
+/* logo-text-container */
+.logo-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1.3rem;
+}
+
+.autolayer-container h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}   
+
+.autolayer-container p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 250;
+    line-height: 1.3rem;
+    width: 170px;
+    height: auto;
+    color: rgb(228, 228, 228);
+}
+
+.autolayer-button-container {
+    width: fit-content;
+    height: auto;
+}
+
+.sedans-button {
+    font-size: 0.7rem;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #E28525;
+    color: white;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+
+/* 2-column-preview-card-component */
+
+.suvs-card-component {
+    width: 250px;
+    height: 400px;
+    background-color: #016972;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.suvs-button {
+    font-size: 0.7rem;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #016972;
+    color: white;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+/* 3-column-preview-card-component */
+
+.luxury-card-component {
+    width: 250px;
+    height: 400px;
+    background-color: #00403F;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.luxury-button {
+    font-size: 0.7rem;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #00403F;
+    color: white;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
